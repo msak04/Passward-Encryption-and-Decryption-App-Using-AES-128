@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Encryption"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENCRYPTION"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="@color/white" />
+    <TextView
+        android:id="@+id/TextView_EnterPassword_Encryption"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Password:"
+        android:textColor="@color/white" />
+    <EditText
+        android:id="@+id/EditText_EnterPassword_Encryption"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        />
+    <TextView
+        android:id="@+id/TextView_EnterKey_Encryption"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter 16 Letter Key:"
+        android:textColor="@color/white" />
+    <EditText
+        android:id="@+id/EditText_EnterKey_Encryption"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        />
+    <Button
+        android:id="@+id/Button_EnterKey_Encryption"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:text="ENCRYPT"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/TextView_EncryptedText_Encryption"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Encrypted Text:"
+        android:textColor="@color/white" />
+    <EditText
+        android:id="@+id/EditText_EncryptedText_Encryption"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        />
+
+
+
+</LinearLayout>
