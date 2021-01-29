@@ -7,15 +7,18 @@
     tools:context=".MainActivity"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="#40407a"
     >
 
     <Button
         android:id="@+id/Button_Encode_Main"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="ENCODE"
+        android:background="@drawable/button_background"
         />
     <Button
         android:id="@+id/Button_Decode_Main"
@@ -24,6 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="DECODE"
+        android:background="@drawable/button_background"
         />
 
 

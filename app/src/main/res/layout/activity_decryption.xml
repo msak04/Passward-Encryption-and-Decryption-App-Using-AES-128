@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Encryption"
+    tools:context=".decryption"
     android:gravity="center"
     android:orientation="vertical"
     android:background="#40407a"
@@ -15,7 +15,7 @@
         android:layout_marginBottom="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ENCRYPTION"
+        android:text="DECRYPTION"
         android:textSize="40dp"
         android:gravity="center"
         android:textColor="@color/white" />
@@ -73,7 +73,7 @@
         android:layout_marginBottom="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Encrypted Text:"
+        android:text="Decrypted Text:"
         android:textColor="@color/white" />
     <EditText
         android:id="@+id/EditText_EncryptedText_Encryption"
@@ -84,7 +84,5 @@
         android:layout_height="50dp"
         android:background="@drawable/edittext_background"
         />
-
-
 
 </LinearLayout>
