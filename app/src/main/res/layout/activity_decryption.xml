@@ -20,16 +20,16 @@
         android:gravity="center"
         android:textColor="@color/white" />
     <TextView
-        android:id="@+id/TextView_EnterPassword_Encryption"
+        android:id="@+id/TextView_EnterCyphertext_Encryption"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Enter Password:"
+        android:text="Enter Encrypted Text:"
         android:textColor="@color/white" />
     <EditText
-        android:id="@+id/EditText_EnterPassword_Encryption"
+        android:id="@+id/EditText_EnterCyphertext_Decryption"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
@@ -38,7 +38,7 @@
         android:background="@drawable/edittext_background"
         />
     <TextView
-        android:id="@+id/TextView_EnterKey_Encryption"
+        android:id="@+id/TextView_EnterKey_Decryption"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
@@ -47,7 +47,7 @@
         android:text="Enter 16 Letter Key:"
         android:textColor="@color/white" />
     <EditText
-        android:id="@+id/EditText_EnterKey_Encryption"
+        android:id="@+id/EditText_EnterKey_Decryption"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
@@ -56,27 +56,27 @@
         android:background="@drawable/edittext_background"
         />
     <Button
-        android:id="@+id/Button_EnterKey_Encryption"
+        android:id="@+id/Button_Decrypt_Decryption"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="40dp"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/button_background"
-        android:text="ENCRYPT"
+        android:text="DECRYPT"
 
         />
     <TextView
-        android:id="@+id/TextView_EncryptedText_Encryption"
+        android:id="@+id/TextView_Password_Decryption"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Decrypted Text:"
+        android:text="Your Password:"
         android:textColor="@color/white" />
     <EditText
-        android:id="@+id/EditText_EncryptedText_Encryption"
+        android:id="@+id/EditText_Password_Decryption"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"

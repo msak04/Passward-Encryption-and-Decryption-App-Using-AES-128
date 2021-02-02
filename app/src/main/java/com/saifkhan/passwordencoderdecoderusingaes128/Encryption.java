@@ -27,18 +27,20 @@ public class Encryption extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_encryption);
-        String PPassword,EKey;
+
         encrypt = (Button) findViewById(R.id.Button_EnterKey_Encryption);//get id of button 2
         eKey = (EditText)findViewById(R.id.EditText_EnterKey_Encryption);
         PlainPass = (EditText)findViewById(R.id.EditText_EnterPassword_Encryption);
         EncryptedPass = (EditText)findViewById(R.id.EditText_EncryptedText_Encryption);
-        PPassword = PlainPass.getText().toString();
-        EKey = eKey.getText().toString();
+
 
         encrypt.setOnClickListener(new View.OnClickListener() {
             @RequiresApi(api = Build.VERSION_CODES.O)
             @Override
             public void onClick(View view) {
+                String PPassword,EKey;
+                PPassword = PlainPass.getText().toString();
+                EKey = eKey.getText().toString();
                 if(EKey.length()==16) {
                     String EPassword = encryptpassword(PPassword, EKey);
                     EncryptedPass.setText(EPassword);
@@ -69,6 +71,7 @@ public class Encryption extends AppCompatActivity {
         return StringEncText;
 
     }
+
 
 
 
