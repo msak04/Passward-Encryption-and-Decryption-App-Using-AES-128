@@ -19,6 +19,7 @@
         android:layout_height="50dp"
         android:text="ENCODE"
         android:background="@drawable/button_background"
+        android:textColor="#C1C1F1"
         />
     <Button
         android:id="@+id/Button_Decode_Main"
@@ -28,6 +29,7 @@
         android:layout_height="50dp"
         android:text="DECODE"
         android:background="@drawable/button_background"
+        android:textColor="#C1C1F1"
         />
 
 

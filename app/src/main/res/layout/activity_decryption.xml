@@ -18,7 +18,7 @@
         android:text="DECRYPTION"
         android:textSize="40dp"
         android:gravity="center"
-        android:textColor="@color/white" />
+        android:textColor="#FFA9A8E6" />
     <TextView
         android:id="@+id/TextView_EnterCyphertext_Encryption"
         android:layout_marginLeft="20dp"
@@ -27,7 +27,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter Encrypted Text:"
-        android:textColor="@color/white" />
+        android:textColor="#FFA9A8E6" />
     <EditText
         android:id="@+id/EditText_EnterCyphertext_Decryption"
         android:layout_marginLeft="20dp"
@@ -36,6 +36,8 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/edittext_background"
+        android:padding="5dip"
+        android:textColor="@color/black"
         />
     <TextView
         android:id="@+id/TextView_EnterKey_Decryption"
@@ -45,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enter 16 Letter Key:"
-        android:textColor="@color/white" />
+        android:textColor="#FFA9A8E6" />
     <EditText
         android:id="@+id/EditText_EnterKey_Decryption"
         android:layout_marginLeft="20dp"
@@ -54,6 +56,9 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/edittext_background"
+        android:padding="5dip"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
         />
     <Button
         android:id="@+id/Button_Decrypt_Decryption"
@@ -64,6 +69,7 @@
         android:layout_height="50dp"
         android:background="@drawable/button_background"
         android:text="DECRYPT"
+        android:textColor="#C1C1F1"
 
         />
     <TextView
@@ -74,7 +80,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Your Password:"
-        android:textColor="@color/white" />
+        android:textColor="#FFA9A8E6" />
     <EditText
         android:id="@+id/EditText_Password_Decryption"
         android:layout_marginLeft="20dp"
@@ -83,6 +89,8 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@drawable/edittext_background"
+        android:padding="5dip"
+        android:textColor="@color/black"
         />
 
 </LinearLayout>

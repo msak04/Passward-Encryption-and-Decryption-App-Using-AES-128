@@ -51,7 +51,7 @@ public class decryption extends AppCompatActivity {
         });
     }
     @RequiresApi(api = Build.VERSION_CODES.O)
-    private String decryptpassword(String stringcyphertext, String encryptionKey) {
+    private static String decryptpassword(String stringcyphertext, String encryptionKey) {
         // TODO Auto-generated method stub
 
         String StringDecText = "";
@@ -64,8 +64,6 @@ public class decryption extends AppCompatActivity {
             Base64.Decoder decoder = Base64.getDecoder();
             byte[] cipherText = decoder.decode(stringcyphertext.getBytes("UTF8"));
             StringDecText = new String(cipher.doFinal(cipherText), "UTF-8");
-
-            Toast.makeText(getApplicationContext(),StringDecText, Toast.LENGTH_SHORT).show();
         } catch (Exception E) {
             System.err.println("decrypt Exception : "+E.getMessage());
         }
